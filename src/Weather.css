@@ -1,8 +1,13 @@
 .Weather {
-  border: 1px solid #dadde1;
+  border: 1.5px solid #dadde1;
   color: rgb(135, 135, 135);
   padding: 16px;
   border-radius: 4px;
+  box-shadow: 10px 5px 5px #dadde1;
+}
+
+.Weather h1 {
+  font-weight: 400;
 }
 
 .Weather form {
@@ -11,7 +16,7 @@
 
 .Weather h1 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   margin: 20px 0 0 0;
   line-height: 29px;
 }
@@ -30,7 +35,8 @@
 
 .Weather canvas {
   position: static;
-}
+  margin-left: 8px;
+  }
 
 .Weather .temperature {
   color: rgb(33, 33, 33);
