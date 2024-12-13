@@ -30,8 +30,6 @@
 
 .Weather canvas {
   position: static;
-  width: 70px;
-  height: 70px;
 }
 
 .Weather .temperature {
